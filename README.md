@@ -3,7 +3,7 @@ BERT2BERT Summarization Project
 
 Overview
 
-I’m excited to present the BERT2BERT Summarization Project. In this work, I fine-tuned a BERT2BERT model—an encoder-decoder framework built on the BERT architecture—to create concise, rephrased summaries using the CNN/DailyMail dataset. My goal was to assess its effectiveness for abstractive summarization, especially under resource-limited conditions, and I found the process both challenging and rewarding.
+I’m excited to present the BERT2BERT Summarization Project. In this work, I fine-tuned a BERT2BERT model an encoder-decoder framework built on the BERT architecture to create concise, rephrased summaries using the CNN/DailyMail dataset. My goal was to assess its effectiveness for abstractive summarization, especially under resource-limited conditions, and I found the process both challenging and rewarding.
 Project Contents
 
 I adapted BERT, which I initially knew for its text understanding capabilities, into a summarization tool by using two BERT models: one to encode the input text and another to decode the summary. I relied on the Hugging Face transformers and datasets libraries to implement and test my approach. In my report, I’ve detailed the training process, evaluated performance using metrics like ROUGE and BLEU, and analyzed the summaries I generated.
