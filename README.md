@@ -9,6 +9,8 @@ Project Contents
 I adapted BERT, which I initially knew for its text understanding capabilities, into a summarization tool by using two BERT models: one to encode the input text and another to decode the summary. I relied on the Hugging Face transformers and datasets libraries to implement and test my approach. In my report, I’ve detailed the training process, evaluated performance using metrics like ROUGE and BLEU, and analyzed the summaries I generated.
 Getting Started
 
+colab Link : https://colab.research.google.com/drive/1vdjD0GIrH4S5_8fIcXMPgUEdkH5VxOF3?usp=sharing
+
 Environment Setup: I installed Python and the necessary libraries using pip:
 pip install transformers datasets torch
 
